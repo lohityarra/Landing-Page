@@ -3,10 +3,7 @@
     color: white;
     display: flex;
     justify-content: space-around;
-    
-    
-    
-
+    padding-bottom: 100px;
 }
 .logo{
     font-size: 24px;
@@ -21,4 +18,44 @@
     flex-wrap: wrap;    
 
 }
+.hero{
+    background-color:#1f2937  ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+.hero-heading{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-bottom: -10px;
+}
+.button-hero{
+    background-color: #3882f6 ;
+    color: white;
+    padding:  10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;  
+    margin-left: 50px;       
+
+}
+.hero-image{
+    align-content: center;
+    flex-wrap: wrap;  
+    margin-right: 50px;  
+
+}
+
+
+   
    
