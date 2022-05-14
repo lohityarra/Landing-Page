@@ -1,0 +1,23 @@
+.header { 
+    background-color: #1f2937 ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.links{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    flex-wrap: wrap;    
+
+}
+   
