@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>The Landing Page</title>
-</head>
-<body>
-    <div class="header">
+
+
+    <!-- bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Landing Page</title>
+
+    <section class="header">
         <div class="logo">
             <p>Header Logo</p>
         </div> 
@@ -17,19 +28,78 @@
         <p>header link two</p>
         <p>header link three</p>
         </div>
-    </div>
-    <div class="hero">
+    </section>
+
+
+</head>
+<body>
+    <section class="hero">
+        
         <div class="hero-text">
         <p class="hero-heading">This website is awesome</p>
         <p class="hero-subtext">This website has some subtext that goes here under the main title.It's a smaller font and the color is lower contrast</p>
         <input class="button-hero" type="button" value="Sign Up" >
         </div>
-
+    
         <div class="hero-image"><img src="./images/hero-image.jpg" alt="Hero-image" height="250px" width="600px"></div>
+    
+        
+    </section>
 
-    </div>
+
+    <section class="testimonials">
+        <p class="test-heading">Some Random Information</p>
+        <div class="boxes">
 
 
+            <div class="first">
+               <div class="box"></div> 
+               <p class="box-text">Random Information</p>
+            </div>
+
+            <div class="second">
+                <div class="box"></div> 
+                <p class="box-text">Random Information</p>
+             </div>
+
+             <div class="third">
+                <div class="box"></div> 
+                <p class="box-text">Random Information</p>
+             </div>
+
+             <div class="four">
+                <div class="box"></div> 
+                <p class="box-text">Random Information</p>
+             </div>
+   
+
+        </div>
+    </section>
+    <section class="quote">
+        <h2 class="quote-text">"Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking."</h2>
+        
+    </section>
+    <section class="cta">
+        <div class="blue-box">
+            <div class="content">
+                <div>
+                    <h1>Call to action! It's time!</h1>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <span><input class="cta-button" type="button" value="Sign Up" ></span>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="footer-text">
+            <p >Copyright of the OdinProject</p>
+        </div>
+    </section>
+   
     
 </body>
 </html>
